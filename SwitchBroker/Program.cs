@@ -109,7 +109,7 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 // ── Middleware pipeline ───────────────────────────────────────────────────────
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
