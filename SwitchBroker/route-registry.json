@@ -1,0 +1,8 @@
+{
+  "dashboard.home": {
+    "legacy": "/User/MyAccount.aspx",
+    "modern": "/dashboard",
+    "status": "both",
+    "fallbackRouteKey": null
+  }
+}
