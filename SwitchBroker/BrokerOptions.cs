@@ -21,8 +21,8 @@
         /// <summary>Known hostnames for each runtime. Used for open-redirect protection.</summary>
         public Dictionary<string, string> AllowedTargetHosts { get; set; } = new()
         {
-            ["legacy"] = "https://legacy.liquid.example.com",
-            ["modern"] = "https://app.liquid.example.com"
+            ["legacy"] = "https://app.liquidaccounts.com/LiquidDelta",
+            ["modern"] = "https://beta.liquidaccounts.com"
         };
 
         /// <summary>Redis connection string. When empty the broker falls back to in-memory storage.</summary>
